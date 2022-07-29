@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>회원가입 - UGAIT</title>
+    <title>마이페이지 - UGAIT</title>
   </head>
   <body>
     <header class="container">
@@ -18,7 +18,7 @@
       </div>
     </header>
     <div class="container">
-      <div class="menu">회원가입 (가이드)</div>
+      <div class="menu">마이페이지</div>
     </div>
     <hr class="line" />
     <div class="signup-box">
@@ -34,8 +34,8 @@
                   <input type="text" name="location" class="location" />
                 </div>
                 <div class="loginBtn">
-                  <button type="button" onclick="" class="my-location-btn">
-                    내 위치
+                  <button type="button" onclick="" class="change-location-btn">
+                    위치 변경
                   </button>
                 </div>
               </div>
@@ -89,25 +89,78 @@
             </div>
           </div>
         </div>
-        <div class="alert">
-          <p>주의 사항</p>
-          <p>
-            투어를 하는 동안의 무례하거나, 사적이 요구는 삼가해주세요.<br />
-            투어를 하는 동안의 비용은 더치페이가 원칙입니다.<br />
-            유학생은 가이드 리뷰를 작성할 수 있으며, 불미스러운 일이 있을 경우
-            유학생과 가이드 모두 강제 회원 탈퇴될 수 있습니다.
-          </p>
-          <div class="flex">
-            <input type="checkbox" name="check" value="" />
-            <div class="check">주의 사항을 모두 숙지하였습니까?</div>
+        <div class="complete">
+          <button type="button" class="edit-complete-btn">수정 완료</button>
+        </div>
+      </div>
+    </div>
+    <hr class="gray-line" />
+    <div class="container guide padding">
+      <div class="sub-text">가이드 매칭 내역</div>
+      <div class="search-duration">
+        <div class="search-text">검색 기간</div>
+        <div>
+          <input
+            type="date"
+            value="2022-06-10"
+            name="start-duration"
+            class="duration"
+          />
+        </div>
+        <div class="search-text">~</div>
+        <div>
+          <input
+            type="date"
+            value="2022-07-27"
+            name="end-duration"
+            class="duration"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- 매칭되었던 가이드 -->
+    <div class="container2">
+      <div><img src="./img/guide_profile1.png" alt="가이드 사진" /></div>
+      <div class="guide-profile">
+        <div class="parent-flex">
+          <div>2022.07.20</div>
+          <div class="childe-flex">
+            <button type="button" name="report" class="report-btn">
+              가이드 신고하기
+            </button>
+          </div>
+        </div>
+        <div class="flex-align">
+          <div class="guide-name">SUSAN</div>
+          <div class="padding-bt">
+            <button type="button" class="lang">영어</button>
+          </div>
+        </div>
+        <div><button type="button" class="tour-theme">식사</button></div>
+        <div class="bottom-bar">
+          <div>
+            <div class="flex-align">
+              <div class="guide-info">연락처</div>
+              <div class="guide-id">010-0000-0000</div>
+            </div>
+            <div class="flex-align">
+              <div class="guide-info">투어 시간</div>
+              <div class="guide-id">12:00 ~ 17:00</div>
+            </div>
+          </div>
+          <div class="childe-flex">
+            <button type="button" class="guide-profile-btn request-btn">
+              가이드 재요청
+            </button>
+            <button type="button" class="guide-profile-btn review-btn">
+              리뷰 작성
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="container flex">
-      <button type="button" name="signup" value="" class="signup-btn">
-        가입 하기
-      </button>
+    <div class="sub-desc">
+      <p><a href="#">더보기</a></p>
     </div>
   </body>
 </html>
