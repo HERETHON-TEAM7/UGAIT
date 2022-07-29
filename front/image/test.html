@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Google Map</title>
+</head>
+
+<body>
+  <div id="map" style="width:100%; height: 100vh;"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD06gFUUCoHdC5qxACah5MCUDom21nr-xM&callback=initMap&"></script>
+  <script>
+    function initMap() {
+      var seoul = { lat: 43.6587378 ,lng: 79.3823039 };
+    
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 20,
+          center: canada
+        });
+      
+    }
+  </script>
+</body>
+</html>
+
+''
+
+  </body>
+</html>
