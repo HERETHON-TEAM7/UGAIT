@@ -4,7 +4,7 @@ body {
 }
 
 .bg-img {
-  background-image: url(./img/sign_up_img.png);
+  background-image: url(./image/sign_up_img.png);
   background-size: 100% 250px;
   background-repeat: no-repeat;
 }
