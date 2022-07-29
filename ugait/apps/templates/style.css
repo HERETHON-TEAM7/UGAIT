@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bg-img {
+  background-image: url(./img/sign_up_img.png);
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+}
+
+.bg-container {
+  margin-top: 70px;
+}
+
+.location {
+  width: 575px;
+  height: 50px;
+  background: rgba(241, 233, 226, 0.5);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.login-edit {
+  width: 350px;
+  height: 50px;
+  background: rgba(241, 233, 226, 0.5);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.input-info {
+  width: 455px;
+  height: 46px;
+  border: 2px solid #da5a37;
+  border-radius: 5px;
+}
+
+.container {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.signup-box {
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.padding {
+  padding-left: 50px;
+}
+
+.login-box {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.menu {
+  height: 80px;
+  font-size: 45px;
+  color: #da5a37;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.login {
+  display: flex;
+}
+
+.loginBtn {
+  margin-left: 50px;
+  justify-content: flex-end;
+}
+
+.btnStyle {
+  width: 147px;
+  height: 124px;
+  font-size: 20px;
+}
+
+.login-options {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 100px;
+  text-align: center;
+  color: #da5a37;
+  font-size: 20px;
+}
+
+.pw {
+  margin-top: 10px;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-container {
+  padding-top: 90px;
+  margin-left: 525px;
+  margin-right: 525px;
+}
+
+.selectType {
+  width: 418px;
+  height: 195px;
+  font-size: 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  border: 0;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.color1 {
+  background: rgba(218, 90, 55, 0.8);
+}
+
+.color2 {
+  background: rgba(107, 117, 92, 0.8);
+}
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.main-desc {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.desc-detail {
+  height: 150px;
+  width: 420px;
+}
+
+.sub-desc {
+  text-align: center;
+}
+
+.desc-detail-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.selectBtnStyle {
+  width: 100.5px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sub-text-container {
+  width: 180px;
+  margin-right: 50px;
+}
+
+.sub-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #da5a37;
+}
+
+.info {
+  align-items: center;
+}
+
+.info-container {
+  padding-top: 30px;
+}
+
+.edit-con {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+
+.info {
+  display: flex;
+  margin: 10px;
+}
+
+.fun-text {
+  width: 120px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+
+.line {
+  height: 13px;
+  background-color: rgba(218, 90, 55, 0.8);
+  border: 0;
+  box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gray-line {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+.my-location-btn,
+.change-location-btn,
+.edit-complete-btn {
+  width: 100.5px;
+  height: 28px;
+  background: #da5a37;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+}
+
+.permission-btn-primary {
+  width: 92px;
+  height: 24px;
+
+  background: #6b755c;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  font-size: 10px;
+}
+
+.permission-btn {
+  margin-left: 120px;
+}
+
+.alert {
+  padding-top: 80px;
+}
+
+.complete {
+  float: right;
+  margin-right: 155px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.check {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  padding-left: 5px;
+  padding-top: 2.5px;
+
+  color: #666666;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.signup-btn {
+  width: 236px;
+  height: 68px;
+  left: 360px;
+  top: 750px;
+
+  background: #da5a37;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0;
+
+  margin: 0 auto;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+}
+
+.search-duration {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-around;
+  width: 380px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.search-text {
+  font-size: 16px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.duration {
+  width: 134px;
+  height: 32px;
+
+  background: rgba(241, 233, 226, 0.5);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.container2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 450px;
+  margin-right: 450px;
+  display: flex;
+}
+
+.bottom-bar {
+  display: flex;
+  margin-top: 120px;
+  height: 30px;
+  align-items: baseline;
+}
+
+.guide-profile {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.parent-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.childe-flex {
+  display: flex;
+  margin-left: auto;
+}
+
+.report-btn {
+  width: 127px;
+  height: 28px;
+
+  background: rgba(241, 233, 226, 0.5);
+  border-radius: 5px;
+  border: 0;
+}
+
+.guide-name {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+
+  color: #6b755c;
+  margin-right: 50px;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.lang {
+  width: 62px;
+  height: 28px;
+
+  background: #6b755c;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+}
+
+.tour-theme {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 95px;
+  height: 40px;
+
+  border: 2px solid #da5a37;
+  border-radius: 5px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.padding-bt {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.guide-info {
+  width: 80px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+
+  color: #666666;
+}
+
+.guide-profile-btn {
+  width: 152px;
+  height: 61px;
+}
+
+.request-btn {
+  border: 3px solid #da5a37;
+  border-radius: 5px;
+  color: black;
+  margin-right: 10px;
+}
+
+.review-btn {
+  background: #da5a37;
+  border: 3px solid #da5a37;
+  border-radius: 5px;
+  color: white;
+}
