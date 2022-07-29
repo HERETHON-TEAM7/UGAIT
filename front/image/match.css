@@ -1,0 +1,293 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #FFFFFF;
+}
+div, th, td, li, dt, dd, p {
+  word-break: break-all;
+}
+
+a{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body{
+  font-family: Roboto;
+  margin: 0 auto;
+
+}
+
+ul {
+  list-style: none;
+}
+
+button, button:focus{
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.logo{
+  /* UGAIT */
+position: absolute;
+width: 79px;
+height: 28px;
+left: 280px;
+top: 48px;
+
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+}
+.register{
+position: absolute;
+width: 120px;
+height: 22px;
+left: 1200px;
+top: 52px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+.mypage{
+  /* 마이페이지 */
+
+text-decoration: none;
+position: absolute;
+width: 74px;
+height: 22px;
+left: 1358px;
+top: 52px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+color: #000000;
+}
+
+.header_{
+  margin: 0 auto;
+}
+
+
+
+h1{
+  /* 캐나다 토론토 */
+
+
+position: absolute;
+width: 382px;
+height: 84px;
+left: 359px;
+top: 150px;
+
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 54px;
+
+color: #DA5A37;
+}
+
+.loc_button{
+  /* Rectangle 30 */
+
+
+
+}
+
+.find_loc{
+  position: absolute;
+width: 187px;
+height: 54px;
+left: 280px;
+top: 268px;
+
+background: #DA5A37;
+border-radius: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px ;
+}
+.my_loc{
+  /* Rectangle 40 */
+position: absolute;
+width: 754px;
+height: 54px;
+left: 479px;
+top: 268px;
+
+background: rgba(241, 233, 226, 0.5);
+box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+
+h3{
+  /* 투어 목적 */
+
+
+position: absolute;
+width: 85px;
+height: 28px;
+left: 280px;
+margin-top: 180px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #6B755C;
+
+}
+
+#up{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.info{
+  border: #DA5A37;
+  margin-top: 220px;
+  margin-left: 270px;
+  
+}
+
+.info td:hover{
+  color: #ffffff;
+}
+
+table, th, td  {
+  border: 3px solid #DA5A37;
+  text-align: center;
+  border-radius: 5px;
+}
+table{
+  margin: 0 auto;
+  width: 1000px;
+  height: 30px;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+td{
+  width: 10px;
+  padding: 10px;
+}
+
+.near{
+  /* 현재 나의 위치와 가까운 가이드 */
+position: absolute;
+width: 449px;
+height: 31px;
+left: 280px;
+top: 534px;
+margin-top: 50px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+letter-spacing: 0.01em;
+
+color: #DA5A37;
+}
+
+.near_des{
+  /* 7명의 가이드가 주변에 있습니다. */
+
+
+position: absolute;
+width: 283px;
+height: 28px;
+left: 280px;
+top: 588px;
+margin-top: 60px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+
+.sel{
+  /* 선택한 가이드 */
+
+
+position: absolute;
+width: 225px;
+height: 28px;
+left: 273px;
+margin-top: 100px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+letter-spacing: 0.01em;
+
+color: #DA5A37;
+}
+
+.guird{
+  position: absolute;
+width: 304px;
+height: 421px;
+margin-left: 280px;
+margin-top: 180px;
+
+border-radius: 5px;
+}
+
+.su{
+  position: absolute;
+width: 127px;
+height: 44px;
+left: 622px;
+margin-top: 180px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #6B755C;
+}
+
+.lan{
+  position: absolute;
+width: 80px;
+height: 28px;
+left: 771px;
+margin-top: 190px;
+
+background: #6B755C;
+color: white;
+text-align: center;
+border-radius: 5px;
+}

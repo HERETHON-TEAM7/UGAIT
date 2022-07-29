@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #FFFFFF;
+}
+div, th, td, li, dt, dd, p {
+  word-break: break-all;
+}
+
+a{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body{
+  font-family: Roboto;
+
+}
+
+ul {
+  list-style: none;
+}
+
+button, button:focus{
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.logo{
+  /* UGAIT */
+position: absolute;
+width: 212px;
+height: 73px;
+left: 836px;
+top: 1341px;
+}
+.title{
+  /* 현지인과의 신나는 투어 */
+position: absolute;
+width: 390px;
+height: 76px;
+left: 831px;
+top: 1371px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+
+color: #6B755C;
+}
+
+.des{
+  /* 모든게 낯선 곳에서 만나는 새로운 친구, 해외에 친구를 사귀고 싶은데 막막하시죠? 유가잇에서는 현지인과 내가 유학을 간 나라의 문화를 체험하며 특별한 추억과 인연을 쌓을 수 있습니다. */
+
+position: absolute;
+width: 395px;
+height: 133px;
+left: 836px;
+top: 1479px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+
+.go_to_guide{
+  /* 가이드 만나러 가기 */
+  position: absolute;
+  width: 236px;
+  height: 68px;
+  left: 995px;
+  top: 1820px;
+  
+  background: #DA5A37;
+  border-radius: 5px;
+
+font-family: 'Noto Sans';
+font-style: italic;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+#page1,
+#page2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+}
+
+.slide-in {
+  animation: change 0.5s ease forwards;
+}
+
+@keyframes change {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+.slide {
+  /* position: relative; */
+  overflow: hidden;
+}
+
+.slide__list {
+  display: flex;
+  transform: translate(0, 0);
+  margin-top: 200px;
+  margin-right: -330px;
+}
+
+.slide__item {
+  flex: 0 0 100%;
+  list-style: none;
+}
+
+.slide__image {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.paginations {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.pagination {
+  width: 12px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.pagination:not(:last-child) {
+  margin-right: 0.3rem;
+}
+
+.pagination.on {
+  background: #333;
+}

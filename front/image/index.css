@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #F1E9E2;
+}
+div, th, td, li, dt, dd, p {
+  word-break: break-all;
+}
+
+a{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body{
+  font-family: Roboto;
+
+}
+
+ul {
+  list-style: none;
+}
+
+button, button:focus{
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.logo{
+  /* UGAIT */
+position: absolute;
+width: 79px;
+height: 28px;
+left: 280px;
+top: 48px;
+
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+}
+.register{
+position: absolute;
+width: 120px;
+height: 22px;
+left: 1002px;
+top: 52px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+.mypage{
+  /* 마이페이지 */
+
+text-decoration: none;
+position: absolute;
+width: 74px;
+height: 22px;
+left: 1158px;
+top: 52px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+color: #000000;
+}
+
+.yougot{
+/* YOU GOT THE REAL */
+position: absolute;
+width: 330px;
+height: 154px;
+left: 280px;
+top: 230px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #6B755C;
+}
+
+#outer_dohyung{
+/* Rectangle 13 */
+position: relative;
+width: 800px;
+height: 308px;
+/* margin-top: 350px; */
+margin-left: -140px;
+left: 80px;
+top: 50px;
+z-index: 1;
+
+background: #DA5A37;
+transform: skew(-16deg);
+border-radius: 5px;
+}
+#inner_dohyung{
+/* Rectangle 15 */
+position: relative;
+width: 642px;
+height: 127px;
+left: 0px;
+top: 30px;
+
+background: #F1E9E2;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+transform: skew(-1deg);
+border-radius: 5px;
+}
+.tour{
+  position: relative;
+width: 323px;
+height: 111px;
+left: 300px;
+
+font-weight: 800;
+font-size: 90px;
+line-height: 109px;
+color: #6B755C;
+}
+.go_to_guide {
+/* 가이드 만나러 가기 */
+position: relative;
+width: 200px;
+height: 60px;
+left: 380px;
+top: 90px;
+background-color: #F1E9E2;
+font-family: 'Noto Sans';
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+transform: skew(16deg);
+border-radius: 5px;
+}
+
+.go_to_guide:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ugait_des{
+  /* 유가잇은 검증된 현지인 가이드를 매칭하여 해외 유학생 여러분께 보다 나은 서비스를 제공 합니다. */
+position: absolute;
+width: 267px;
+height: 31px;
+left: 240px;
+top: 800px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+}
+.more_info{
+  /* 유가잇에 대해 더 알아보기 >> */
+
+position: absolute;
+width: 221px;
+height: 18px;
+left: 240px;
+top: 850px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+color: #000000;
+}
+
+
+
+.main_img img{
+  /* Rectangle 18 */
+
+width: 700px;
+height: 700px;
+left: 1513px;
+top: 858px;
+margin-top: 100px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+/* animation 구현 */
+
+#page1,
+#page2 {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  /* flex-direction: column; */
+  /* position: absolute; */
+}
+.slide-in {
+  animation: change 0.5s ease forwards;
+}
+
+@keyframes change {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+.slide {
+  /* position: relative; */
+  overflow: hidden;
+}
+
+.slide__list {
+  display: flex;
+  transform: translate(0, 0);
+  margin-top: 200px;
+  margin-right: -330px;
+}
+
+.slide__item {
+  flex: 0 0 100%;
+  list-style: none;
+}
+
+.slide__image {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.paginations {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.pagination {
+  width: 12px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.pagination:not(:last-child) {
+  margin-right: 0.3rem;
+}
+
+.pagination.on {
+  background: #333;
+}
