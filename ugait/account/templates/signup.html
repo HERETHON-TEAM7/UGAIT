@@ -1,0 +1,32 @@
+{% block content %}
+
+<h1>회원가입</h1>
+
+<form method="POST" action="{% url 'student_signup'%}">
+    {% csrf_token %}
+    아이디:
+    <br>
+    <input name="username"  type="text" >
+    <br>
+    비밀번호:
+    <br>
+    <input name="password1"  type="password" >
+    <br>
+    비밀번호 확인:
+    <br>
+    <input name="password2"  type="password" >
+    <br>
+    닉네임 입력:
+    <br>
+    <input name="nickname" type="text">
+    <br>
+    위치 입력:
+    <br>
+    <input name="location" type="text">
+    <br>
+    phone number:
+    <input name = "phone" type="text">
+    <input class="btn btn-primary" type="submit" value="회원가입">
+</form>
+
+{% endblock %}
